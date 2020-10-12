@@ -74,3 +74,12 @@ policy-map egress-policy
   shape average 4096000 160000
    service-policy child-egress-policy
 ```
+
+- 大多数情况下, shape的bc参数都可以不用填写, 保持思科自动的默认参数即可
+
+```
+policy-map egress-policy
+ class class-default
+  shape average 4096000
+   service-policy child-egress-policy
+```

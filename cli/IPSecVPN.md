@@ -91,9 +91,9 @@ router eigrp 90
 !
 ```
 
-> 某些设备或IOS版本无法输入纯数字的hostname, 可以使用如下方式:
+> 某些设备或IOS版本无法输入纯数字的hostname, 可以使用如下方式: **1234567.hktmpls.com**
 
 ```
 no ip domain name hktmpls.com
-hostname **1234567.hktmpls.com**
+hostname 1234567.hktmpls.com
 ```
